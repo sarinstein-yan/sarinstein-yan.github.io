@@ -6,9 +6,10 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+  - /homepage/
 ---
 
-Hi! I am Xianquan Yan (you can also call me Sarinstein). I am currently a Ph.D. candidate at the National University of Singapore. I am fortunate to be guided by my super-supportive supervisors, [Lee Ching Hua](https://www.physics.nus.edu.sg/faculty/lee-ching-hua/) from the Department of Physics and [Kenji Kawaguchi](https://ml.comp.nus.edu.sg/kawaguchi/) from the Department of Computer Science. I also collaborate closely with [Duane Loh](https://www.physics.nus.edu.sg/faculty/loh-duane/) from the Department of Physics and Biological Sciences.
+Hi! I am Xianquan Yan (you can also call me Sarinstein). I am currently a Ph.D. candidate at the National University of Singapore. I am fortunate to be guided by my super-supportive supervisors, [Lee Ching Hua](https://www.physics.nus.edu.sg/faculty/lee-ching-hua/) from the Department of Physics and [Kenji Kawaguchi](https://ml.comp.nus.edu.sg/kawaguchi) from the Department of Computer Science. I also collaborate closely with [Duane Loh](https://www.physics.nus.edu.sg/faculty/loh-duane/) from the Department of Physics and Biological Sciences.
 
 My academic pursuits are fueled by a fervent curiosity about the world and its intricate networks. Presently, my research is situated at the intersection of:
 * **Topological Non-Hermitian Physics** — novel topological phenomena emerged from non-Hermitian systems
@@ -18,7 +19,7 @@ My academic pursuits are fueled by a fervent curiosity about the world and its i
 Beyond the realm of science, I am deeply captivated by philosophy, economics, and psychology, and aspire to explore the complex nature of these disciplines in the future.
 
 ---
-*P.S. The name "Sarinstein" was coined in inspiration of intellectual giants Jean-Paul Sartre and Albert Einstein.*
+*P.S. The name "Sarinstein" was coined in inspiration of intellectual giants Jean-Paul <u>Sar</u>tre and Albert Ei<u>nstein</u>.*
 
 
 
