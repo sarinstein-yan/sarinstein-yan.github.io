@@ -9,6 +9,14 @@ redirect_from:
 
 {% include base_path %}
 
+<p style="text-align:center;">
+  <a class="btn btn--primary" 
+     href="{{ base_path }}/files/CV_latest.pdf"
+     target="_blank">
+    <i class="fas fa-file-pdf fa-fw"></i> Download full CV (PDF)
+  </a>
+</p>
+
 Education
 ======
 - **National University of Singapore**
