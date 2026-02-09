@@ -23,10 +23,10 @@ repository               : "sarinstein-yan/sarinstein-yan.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "profile2026.jpg"
   name             : "Xianquan Yan"
   pronouns         : # example: "she/her"
-  bio              : "Ph.D. Candidate at the National University of Singapore.<br>Topological Matter, AI for Physics, and Complex Systems."
+  bio              : "Ph.D. Candidate, NUS.<br>Condensed Matter Physics, AI for Physics,<br> Quantum Information Science, and Complex Systems."
   location         : "Singapore"
   employer         : "National University of Singapore"
   uri              : # URL
