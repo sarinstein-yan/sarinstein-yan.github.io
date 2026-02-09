@@ -14,6 +14,7 @@ Hi! I am Xianquan Yan (pronounced like: *Shee-an Chwan, Yen*. You can also call 
 My academic pursuits are fueled by a fervent curiosity about the world and its intricate networks. Presently, my research is situated at the intersection of:
 * **Topological Non-Hermitian Physics** — novel topological phenomena emerged from non-Hermitian systems
 * **AI for Physics**, with a focus on graph representation learning and symbolic regression
+* **Quantum Information Science**, including quantum simulation, quantum machine learning, and quantum error mitigation
 * **Complex Systems and Nonlinear Dynamics**, including social and neural phenomena
 
 Beyond the realm of science, I am deeply captivated by philosophy, economics, and psychology, and aspire to explore the complex nature of these disciplines in the future.
