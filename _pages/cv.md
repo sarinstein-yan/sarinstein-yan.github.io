@@ -62,8 +62,9 @@ Experience
   - Berkeley, California, United States. Hybrid.
   - Supervisor: [Benjamin Nachman](https://nachmangroup.github.io/index.html)
 - **Teaching Assistant**
-  - *National University of Singapore*, 2024 - 2025
+  - *National University of Singapore*, 2024 - 2026
   - Singapore. Onsite.
+  - Courses: Practical Machine Learning for Scientific Discovery (AIS5102), AI in Condensed Matter Physics (AIS5204), Complex Systems Analysis and Modelling (PC5253)
 
 Honors and Awards
 ======
