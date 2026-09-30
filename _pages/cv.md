@@ -70,7 +70,7 @@ Academic Service
 ======
 - Reviewer, *Communications Physics*, 2026
 - Reviewer, *NeurIPS 2026*
-- Reviewer, *ICLR 2027* (reviewing in 2026)
+- Reviewer, *ICLR 2027*
 
 Codebases and Datasets
 ======
@@ -83,14 +83,15 @@ Codebases and Datasets
 
 Honors and Awards
 ======
-- **Faculty of Science PhD Conference Award (FPCA)**, Faculty of Science, National University of Singapore, 2026
-- **China National Scholarship** (Top 0.2%), The Ministry of Education of the P.R. China, 2020 & 2021
+- **China National Scholarship** (Top 0.2%), The Ministry of Education of the P.R. China, 2021
+- **China National Scholarship** (Top 0.2%), The Ministry of Education of the P.R. China, 2020
 - **1st Prize, Scholarship of *Bajian* program for fundamental disciplines 2.0**, The Ministry of Education of the P.R. China, 2022
 - **1st Prize, CASC Scholarship**, China Aerospace Science and Technology Corp, 2022
 - **Gold, Asia International Mathematical Olympiad Open Contest**, A.I.M.O. Union, 2012
 - **Provincial Excellent Student Leader**, The Education Department of Sichuan Province, 2019
 - **1st Prize** and **Best Demeanor Award**, South-West Undergraduate Physics Tournament, Sichuan Physical Society, 2020
 - **2nd Prize, National English Competition for College Students**, Advisory Board for College Foreign Language Teaching and College English Teaching Research Association of China, 2020
+- **Faculty of Science PhD Conference Award (FPCA)**, Faculty of Science, National University of Singapore, 2026
 <!-- - **3rd Prize, China Undergraduate Physics Tournament (C.U.P.T.)**, Chinese Physics Society, 2020 -->
 
 Extracurricular Activities

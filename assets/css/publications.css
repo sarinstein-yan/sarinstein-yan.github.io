@@ -24,3 +24,6 @@
 html[data-theme="dark"] .publication-list{--pub-ink:#a8cfe9;--pub-muted:#b0bcc6;--pub-line:#3b4b58;--pub-tint:#253b4c;--pub-body:#d0d9e0;--pub-strong:#f0f5f9;--pub-hover:#344e61}
 
 .publication-list .pub-metric-note a{color:var(--pub-muted)}
+
+.publication-list .pub-card__media{font-size:.76em;color:var(--pub-muted)}
+.publication-list .pub-card__media a{color:inherit;text-decoration:underline}
