@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}">
+<div class="publication-list">
+<p class="pub-legend"><sup>*</sup> {% if page.lang == "zh" %}共同贡献 &nbsp; <sup>†</sup> 通讯作者（含共同通讯）{% else %}Equal contribution &nbsp; <sup>†</sup> Corresponding author(s){% endif %}</p>
+{% assign ranked_publications = site.publications | sort: 'display_order' %}
+{% assign groups = 'preprints,manuscripts,conferences' | split: ',' %}
+{% for group in groups %}
+  {% assign group_posts = ranked_publications | where: 'category', group %}
+  {% if group_posts.size > 0 %}
+  <section class="pub-group" aria-labelledby="pub-group-{{ group }}">
+    <h2 id="pub-group-{{ group }}">{% case group %}{% when 'preprints' %}{% if page.lang == "zh" %}预印本{% else %}Preprints{% endif %}{% when 'manuscripts' %}{% if page.lang == "zh" %}期刊论文{% else %}Journal Articles{% endif %}{% when 'conferences' %}{% if page.lang == "zh" %}会议与研讨会论文{% else %}Conference &amp; Workshop Papers{% endif %}{% endcase %}<span class="pub-group__count">{{ group_posts.size }}</span></h2>
+    {% for post in group_posts %}{% include publication-card.html %}{% endfor %}
+  </section>
+  {% endif %}
+{% endfor %}
+<p class="pub-metric-note" id="conference-impact-note"><sup>*</sup> {% if page.lang == "zh" %}会议影响力折算分数，来源：{% else %}Estimated conference impact score from {% endif %}<a href="https://rizwanaliqau.github.io/csimpact/"><u>CS Conference Impact Factors</u></a>{% if page.lang == "zh" %}。指标均注明年份。JCR 学科：物理（综合）；新锐大类：物理与天体物理。{% else %}. Venue metrics are labelled by year. JCR category: Physics, Multidisciplinary; XinRui category: Physics and Astronomy.{% endif %}</p>
+</div>

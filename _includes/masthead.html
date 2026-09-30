@@ -6,15 +6,16 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{{ base_path }}/{% if page.lang == "zh" %}zh/{% endif %}">{% if page.lang == "zh" %}颜显权{% else %}{{ site.title }}{% endif %}</a></li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
             {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            <li class="masthead__menu-item"><a href="{{ domain }}{% if page.lang == "zh" %}/zh{% endif %}{{ link.url }}">{% if page.lang == "zh" %}{% case link.title %}{% when "Publications" %}学术论文{% when "CV" %}简历{% else %}{{ link.title }}{% endcase %}{% else %}{{ link.title }}{% endif %}</a></li>
           {% endfor %}
+          <li class="masthead__menu-item persist"><a class="language-switch" href="{{ page.translation_url | default: "/zh/" | relative_url }}" lang="{% if page.lang == "zh" %}en{% else %}zh{% endif %}" aria-label="{% if page.lang == "zh" %}Switch to English{% else %}切换到中文{% endif %}">{% if page.lang == "zh" %}EN{% else %}中文{% endif %}</a></li>
           <li id="theme-toggle" class="masthead__menu-item persist tail">
             <a><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
           </li>

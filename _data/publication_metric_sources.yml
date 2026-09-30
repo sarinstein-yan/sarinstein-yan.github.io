@@ -1,0 +1,38 @@
+# Verified 2026-09-30. These describe venues, not individual paper quality.
+verified_on: 2026-09-30
+iclr:
+  ranking: 'ICORE A*'
+  ranking_year: 2026
+  ranking_source: 'https://portal.core.edu.au/conf-ranks/?search=ICLR'
+  estimated_if: 56.04
+  estimated_if_year: 2026
+  estimated_if_source: 'https://rizwanaliqau.github.io/csimpact/'
+  estimated_if_data: 'https://rizwanaliqau.github.io/csimpact/data.json'
+  method: 'Blended conference impact score; not a Clarivate Journal Impact Factor.'
+communications_physics:
+  jif: 5.5
+  jif_year: 2025
+  source: 'https://www.nature.com/commsphys/journal-impact'
+additional_verification:
+  ccf_iclr:
+    label: 'CCF A (2026, seventh edition)'
+    directory: 'https://www.ccf.org.cn/Academic_Evaluation/By_category/'
+    corroboration: 'https://playbigdata.ruc.edu.cn/dou/'
+    limitation: 'Direct CCF directory fetch blocked; classification corroborated on university-hosted publications list and seventh-edition release reporting.'
+  communications_physics_jcr:
+    quartile: Q1
+    metric_year: 2025
+    category: 'Physics, Multidisciplinary'
+    source: 'https://www.iit.comillas.edu/publicacion/info_revista/en/880/Communications_Physics'
+  communications_physics_xinrui:
+    tier: 1
+    top: true
+    edition: 2026
+    category: 'Physics and Astronomy'
+    source: 'https://www.ablesci.com/journal/detail?id=pB4EXD'
+    corroboration: 'https://www.minicod.com/journals/communications-physics-aa2b1266'
+    public_mirror: 'https://journal.z-lab.com.cn/'
+    official_profile: 'https://www.xr-scholar.com/Journals/j-x4q65kvj?culture=en'
+    verification: 'Confirmed by user-provided 2026 journal detail screenshot in this chat.'
+    subcategory: 'Physics, Multidisciplinary'
+    subcategory_tier: 1

@@ -1,4 +1,6 @@
 ---
+lang: en
+translation_url: /zh/cv/
 layout: archive
 title: "CV"
 permalink: /cv/
@@ -13,14 +15,14 @@ redirect_from:
   <a class="btn btn--primary" 
      href="{{ base_path }}/files/CV_latest.pdf"
      target="_blank">
-    <i class="fas fa-file-pdf fa-fw"></i> Download full CV (PDF)
+    <i class="fas fa-file-pdf fa-fw"></i> Download CV (PDF)
   </a>
 </p>
 
 Education
 ======
 - **National University of Singapore**
-  - Doctor of Philosophy - PhD, *Physics* and *Computer Science*, 2023 - 2028 (expected)
+  - Doctor of Philosophy - PhD, *Physics* and *Computer Science*, 2023 - present
   - Supervisors: [Lee Ching Hua](https://www.physics.nus.edu.sg/faculty/lee-ching-hua/) and [Kenji Kawaguchi](https://ml.comp.nus.edu.sg/kawaguchi)
   - GPA: **5.00/5.00**
 - **Sichuan University**
@@ -35,10 +37,8 @@ Education
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+{% include publication-list.html %}
+
 <!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
@@ -66,8 +66,24 @@ Experience
   - Singapore. Onsite.
   - Courses: Practical Machine Learning for Scientific Discovery (AIS5102), AI in Condensed Matter Physics (AIS5204), Complex Systems Analysis and Modelling (PC5253)
 
+Academic Service
+======
+- Reviewer, *Communications Physics*, 2026
+- Reviewer, *NeurIPS 2026*
+- Reviewer, *ICLR 2027* (reviewing in 2026)
+
+Codebases and Datasets
+======
+- [**KnottedGraph**](https://github.com/HakanAkgn/KnottedGraph): Python framework for constructing, visualizing, and analyzing knotted graphs, including scalable Yamada polynomial evaluation.
+
+- [**poly2graph**](https://github.com/sarinstein-yan/poly2graph): Python package for automatic Hamiltonian spectral graph construction from characteristic polynomials and Bloch Hamiltonians.
+- [**HSG-12M**](https://github.com/sarinstein-yan/HSG-12M): Codebase for downloading, processing, subsetting, and benchmarking the HSG-12M spatial multigraph dataset with NetworkX and PyTorch Geometric.
+- [**HSG-12M (Data)**](https://doi.org/10.7910/DVN/PYDSSQ): Harvard Dataverse dataset of spatial multigraphs extracted from the energy spectra of non-Hermitian crystals.
+- [**ClusterAnalyzer**](https://github.com/HakanAkgn/ClusterAnalyzer): Python library for analyzing critical behavior, self-similarity, and fractal dimensions of clusters in 2D cellular automata.
+
 Honors and Awards
 ======
+- **Faculty of Science PhD Conference Award (FPCA)**, Faculty of Science, National University of Singapore, 2026
 - **China National Scholarship** (Top 0.2%), The Ministry of Education of the P.R. China, 2020 & 2021
 - **1st Prize, Scholarship of *Bajian* program for fundamental disciplines 2.0**, The Ministry of Education of the P.R. China, 2022
 - **1st Prize, CASC Scholarship**, China Aerospace Science and Technology Corp, 2022
@@ -81,7 +97,7 @@ Extracurricular Activities
 ======
 - **Football (Soccer), School Team**
     - Captain, Left-Winger, 2013 - 2023
-- **English Debate Team of Sichuan University** and **Chinese Debate Team of Department of Physics**
+- **English Debate Team of Sichuan University** and **Debate Team of Department of Physics**
     - Debater, 2019 - 2021
 - **Sichuan University Mathematica Society**
     - Director, 2021 - 2023

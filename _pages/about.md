@@ -1,4 +1,6 @@
 ---
+lang: en
+translation_url: /zh/
 permalink: /
 title: "About Me"
 # excerpt: "About me"
