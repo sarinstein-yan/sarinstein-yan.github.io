@@ -2,12 +2,12 @@
 <div class="publication-list">
 <p class="pub-legend"><sup>*</sup> {% if page.lang == "zh" %}共同贡献 &nbsp; <sup>†</sup> 通讯作者（含共同通讯）{% else %}Equal contribution &nbsp; <sup>†</sup> Corresponding author(s){% endif %}</p>
 {% assign ranked_publications = site.publications | sort: 'display_order' %}
-{% assign groups = 'preprints,manuscripts,conferences' | split: ',' %}
+{% assign groups = 'preprints,submissions,manuscripts,conferences' | split: ',' %}
 {% for group in groups %}
   {% assign group_posts = ranked_publications | where: 'category', group %}
   {% if group_posts.size > 0 %}
   <section class="pub-group" aria-labelledby="pub-group-{{ group }}">
-    <h2 id="pub-group-{{ group }}">{% case group %}{% when 'preprints' %}{% if page.lang == "zh" %}预印本{% else %}Preprints{% endif %}{% when 'manuscripts' %}{% if page.lang == "zh" %}期刊论文{% else %}Journal Articles{% endif %}{% when 'conferences' %}{% if page.lang == "zh" %}会议与研讨会论文{% else %}Conference &amp; Workshop Papers{% endif %}{% endcase %}<span class="pub-group__count">{{ group_posts.size }}</span></h2>
+    <h2 id="pub-group-{{ group }}">{% case group %}{% when 'preprints' %}{% if page.lang == "zh" %}预印本{% else %}Preprints{% endif %}{% when 'submissions' %}{% if page.lang == "zh" %}同行评议中的论文{% else %}Manuscripts Under Review{% endif %}{% when 'manuscripts' %}{% if page.lang == "zh" %}期刊论文{% else %}Journal Articles{% endif %}{% when 'conferences' %}{% if page.lang == "zh" %}会议与研讨会论文{% else %}Conference &amp; Workshop Papers{% endif %}{% endcase %}<span class="pub-group__count">{{ group_posts.size }}</span></h2>
     {% for post in group_posts %}{% include publication-card.html %}{% endfor %}
   </section>
   {% endif %}
