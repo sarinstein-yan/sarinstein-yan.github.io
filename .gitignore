@@ -13,5 +13,25 @@ node_modules
 package-lock.json
 
 # Ignore the vendor file and bundle for alternative installation
-vendor/
+/vendor/
 .bundle/
+
+# Jekyll incremental build cache.
+/.jekyll-cache/
+/.jekyll-metadata
+
+# Package manager debug logs.
+npm-debug.log*
+yarn-error.log*
+
+# Local Python environments and bytecode.
+__pycache__/
+*.pyc
+.venv/
+
+# OS and editor temporary files.
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
