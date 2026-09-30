@@ -5,11 +5,11 @@
   <p class="pub-card__venue"><strong>{{ post.venue | escape }}</strong>{% assign pub_year = post.date | date: "%Y" %}{% unless post.category == 'conferences' %}<span>{{ pub_year }}</span>{% endunless %}</p>
   {% if post.status %}<p class="pub-card__status">{% if post.review_venue %}{% if page.lang == "zh" %}同行评议中，投稿期刊：{% else %}Under review at {% endif %}<strong><u>{{ post.review_venue | escape }}</u></strong>{% else %}{{ post.status | escape }}{% endif %}</p>{% endif %}
   {% if post.metrics %}<div class="pub-card__metrics">{% for metric in post.metrics %}<a href="{{ metric.url | escape }}" class="pub-badge">{% if page.lang == "zh" %}{{ metric.label | replace: "XinRui Tier 1 / Top", "新锐 1 区 / Top" | escape }}{% else %}{{ metric.label | escape }}{% endif %}</a>{% endfor %}</div>{% endif %}
-  {% include publication-media.html publication=post %}
   <nav class="pub-card__links" aria-label="Resources for {{ post.title | escape }}">
     {% if post.paperurl %}<a href="{{ post.paperurl }}">{% if page.lang == "zh" %}论文{% else %}Paper{% endif %} <span aria-hidden="true">↗</span></a>{% endif %}
     {% if post.codeurl %}<a href="{{ post.codeurl }}">{% if page.lang == "zh" %}代码{% else %}Code{% endif %}</a>{% endif %}
     {% if post.dataseturl %}<a href="{{ post.dataseturl }}">{% if page.lang == "zh" %}数据集{% else %}Dataset{% endif %}</a>{% endif %}
     {% if post.bibtexurl %}<a href="{{ post.bibtexurl | relative_url }}">BibTeX</a>{% endif %}
   </nav>
+  {% include publication-media.html publication=post %}
 </article>

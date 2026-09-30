@@ -34,3 +34,5 @@ html[data-theme="dark"] .publication-list{--pub-ink:#a8cfe9;--pub-muted:#b0bcc6;
 html[data-theme="dark"] .pub-card__media{color:#b0bcc6}
 html[data-theme="dark"] .pub-card__media .media-badge{background:#253b4c;border-color:#4c657a;color:#c1def3}
 html[data-theme="dark"] .pub-card__media .media-badge--scu{background:#442e35;border-color:#76535d;color:#f0c8cf}
+
+.pub-card .pub-card__links + .pub-card__media{margin-top:.65rem}
