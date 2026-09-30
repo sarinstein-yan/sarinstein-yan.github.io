@@ -25,5 +25,12 @@ html[data-theme="dark"] .publication-list{--pub-ink:#a8cfe9;--pub-muted:#b0bcc6;
 
 .publication-list .pub-metric-note a{color:var(--pub-muted)}
 
-.publication-list .pub-card__media{font-size:.76em;color:var(--pub-muted)}
-.publication-list .pub-card__media a{color:inherit;text-decoration:underline}
+.pub-card__media{display:flex;flex-wrap:wrap;align-items:center;gap:.45rem;font-size:.76em;color:var(--pub-muted,#566573)}
+.pub-card__media .media-badge{display:inline-flex;align-items:center;gap:.4rem;padding:.25rem .6rem;border:1px solid #cbd5df;border-radius:6px;background:#f2f5f8;color:#24496d;text-decoration:none;line-height:1.5}
+.pub-card__media .media-badge--scu{border-color:#e3ced0;background:#faf2f3;color:#873b46}
+.pub-card__media .media-badge:hover{text-decoration:underline;filter:brightness(.95)}
+.media-badge__arrow{font-size:.85em;opacity:.7}
+.pub-card__media .media-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px}
+html[data-theme="dark"] .pub-card__media{color:#b0bcc6}
+html[data-theme="dark"] .pub-card__media .media-badge{background:#253b4c;border-color:#4c657a;color:#c1def3}
+html[data-theme="dark"] .pub-card__media .media-badge--scu{background:#442e35;border-color:#76535d;color:#f0c8cf}
