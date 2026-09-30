@@ -12,7 +12,7 @@ author_profile: true
 ## 教育经历
 
 - **新加坡国立大学** · 2023–至今
-  - 博士，物理学与计算机科学；GPA：**5.00/5.00**
+  - 博士在读，物理学 & 计算机科学；GPA：**5.00/5.00**
   - 导师：[Lee Ching Hua](https://www.physics.nus.edu.sg/faculty/lee-ching-hua/) 与 [Kenji Kawaguchi](https://ml.comp.nus.edu.sg/kawaguchi)
 - **四川大学** · 2019–2023
   - 理学学士，物理学；GPA：**3.96/4.00**（排名 1/285）
