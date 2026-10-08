@@ -11,13 +11,13 @@ venue: "arXiv preprint arXiv:2610.08769"
 paperurl: "https://arxiv.org/abs/2610.08769"
 bibtexurl: "/files/2026-10-06-magic-mpemba.bib"
 excerpt: ""
-authors_display: "Han-Ze Li<sup>*</sup>, <strong><u>Xianquan Yan</u></strong><sup>*</sup>, Yi-Rui Zhang, Jian-Xin Zhong<sup>†</sup>, Shuo Liu<sup>†</sup>, Ching Hua Lee<sup>†</sup>"
+authors_display: "Han-Ze Li<sup>*</sup>, <strong><u>Xianquan Yan</u></strong><sup>*</sup>, Yi-Rui Zhang, Jian-Xin Zhong, Shuo Liu, Ching Hua Lee"
 status: "Under review at Physical Review Letters (PRL)"
 review_venue: "Physical Review Letters (PRL)"
 ---
 
-Han-Ze Li<sup>*</sup>, <strong><u>Xianquan Yan</u></strong><sup>*</sup>, Yi-Rui Zhang, Jian-Xin Zhong<sup>†</sup>, Shuo Liu<sup>†</sup>, Ching Hua Lee<sup>†</sup>
+Han-Ze Li<sup>*</sup>, <strong><u>Xianquan Yan</u></strong><sup>*</sup>, Yi-Rui Zhang, Jian-Xin Zhong, Shuo Liu, Ching Hua Lee
 
-\* Equal contribution; † Corresponding author(s).
+\* Equal contribution.
 
 Under review at <strong><u>Physical Review Letters (PRL)</u></strong>.
