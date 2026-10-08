@@ -3,7 +3,8 @@ lang: en
 translation_url: /zh/publication/2026-10-06-magic-mpemba/
 title: "Observing the magic Mpemba effect in localized dynamics on a digital quantum computer"
 collection: publications
-display_order: 1.5
+display_order: 2
+authorship_group: lead
 category: preprints
 permalink: /publication/2026-10-06-magic-mpemba
 date: 2026-10-06

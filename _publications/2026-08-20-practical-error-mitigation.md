@@ -3,7 +3,8 @@ lang: en
 translation_url: /zh/publication/2026-08-20-practical-error-mitigation/
 title: "Practical Error Suppression and Mitigation for Reliable Quantum Computing"
 collection: publications
-display_order: 14
+display_order: 11
+authorship_group: coauthor
 category: preprints
 permalink: /publication/2026-08-20-practical-error-mitigation
 date: 2026-08-20

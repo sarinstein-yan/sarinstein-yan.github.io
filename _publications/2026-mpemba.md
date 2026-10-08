@@ -3,7 +3,8 @@ lang: en
 translation_url: /zh/publication/2026-mpemba/
 title: "Non-Hermitian Activation of Quantum Mpemba Effect in Dipole-conserving Systems"
 collection: publications
-display_order: 3
+display_order: 4
+authorship_group: lead
 category: submissions
 permalink: /publication/2026-mpemba
 year: 2026

@@ -4,6 +4,7 @@ translation_url: /zh/publication/2026-09-11-knotted-graphs/
 title: "Topological classification through knotted graphs: Fermi surface dispersions and Lifshitz transitions"
 collection: publications
 display_order: 1
+authorship_group: lead
 category: preprints
 permalink: /publication/2026-09-11-knotted-graphs
 date: 2026-09-11

@@ -3,7 +3,8 @@ lang: en
 translation_url: /zh/publication/2025-07-ai4x_metric/
 title: "Automated Metric Discovery: Navigating Quantum Geometry with Symbolic Regression"
 collection: publications
-display_order: 8
+display_order: 7
+authorship_group: lead
 category: conferences
 permalink: /publication/2025-07-ai4x_metric
 excerpt: ""
