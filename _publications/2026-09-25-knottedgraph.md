@@ -11,10 +11,8 @@ venue: "arXiv preprint arXiv:2609.31152"
 paperurl: "https://arxiv.org/abs/2609.31152"
 bibtexurl: "/files/2026-09-25-knottedgraph.bib"
 excerpt: ""
-authors_display: "Hakan Akgün<sup>†</sup>, <strong><u>Xianquan Yan</u></strong>, Kehan Liu, Zhaoyun Chen, Ching Hua Lee<sup>†</sup>"
+authors_display: "Hakan Akgün, <strong><u>Xianquan Yan</u></strong>, Kehan Liu, Zhaoyun Chen, Ching Hua Lee"
 codeurl: "https://github.com/HakanAkgn/KnottedGraph"
 ---
 
-Hakan Akgün<sup>†</sup>, <strong><u>Xianquan Yan</u></strong>, Kehan Liu, Zhaoyun Chen, Ching Hua Lee<sup>†</sup>.
-
-† Corresponding author(s).
+Hakan Akgün, <strong><u>Xianquan Yan</u></strong>, Kehan Liu, Zhaoyun Chen, Ching Hua Lee.
