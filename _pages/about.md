@@ -14,9 +14,9 @@ redirect_from:
 Hi! I am Xianquan Yan (pronounced like: *Shee-an Chwan, Yen*. You can also call me *Sarinstein*). I am currently a Ph.D. candidate at the National University of Singapore. I am fortunate to be guided by my super-supportive supervisors, [Lee Ching Hua](https://www.physics.nus.edu.sg/faculty/lee-ching-hua/) from the Department of Physics and [Kenji Kawaguchi](https://ml.comp.nus.edu.sg/kawaguchi) from the Department of Computer Science. I also collaborate closely with [Duane Loh](https://www.physics.nus.edu.sg/faculty/loh-duane/) from the Department of Physics and Biological Sciences.
 
 My academic pursuits are fueled by a fervent curiosity about the world and its intricate networks. Presently, my research is situated at the intersection of:
-* **Topological Non-Hermitian Physics** — novel topological phenomena emerged from non-Hermitian systems
-* **AI for Physics**, with a focus on graph representation learning and symbolic regression
+* **AI + Physics**, with a focus on the science of AI, neural network interpretability, and graph representation learning
 * **Quantum Information Science**, including quantum simulation, quantum machine learning, and quantum error mitigation
+* **Topological Non-Hermitian Physics** — novel topological phenomena emerged from non-Hermitian systems
 * **Complex Systems and Nonlinear Dynamics**, including social and neural phenomena
 
 Beyond the realm of science, I am deeply captivated by philosophy, economics, and psychology, and aspire to explore the complex nature of these disciplines in the future.

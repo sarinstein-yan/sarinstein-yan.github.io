@@ -17,12 +17,12 @@ bibtexurl: "/files/2026-11-07-greedy-is-sorting.bib"
 excerpt: ""
 authors_display: "Kehan Liu, Zhaoyun Chen, <strong><u>Xianquan Yan</u></strong><sup>†</sup>"
 metrics:
-  - label: "CCF B · 2026"
-    url: "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
   - label: "ICORE A · 2026"
     url: "https://portal.core.edu.au/conf-ranks/?search=WSDM"
   - label: "Impact Factor* 15.50 · 2026"
     url: "/publications/#conference-impact-note"
+  - label: "CCF B · 2026"
+    url: "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
 ---
 
 Kehan Liu, Zhaoyun Chen, <strong><u>Xianquan Yan</u></strong><sup>†</sup>.
