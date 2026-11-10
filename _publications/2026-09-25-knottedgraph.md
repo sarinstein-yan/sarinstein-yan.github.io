@@ -3,7 +3,7 @@ lang: en
 translation_url: /zh/publication/2026-09-25-knottedgraph/
 title: "KnottedGraph: Scalable knotted-graph topology for scientific and mathematical discovery"
 collection: publications
-display_order: 10
+display_order: 12
 authorship_group: coauthor
 category: preprints
 permalink: /publication/2026-09-25-knottedgraph

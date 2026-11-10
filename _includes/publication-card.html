@@ -3,7 +3,7 @@
   <p class="pub-card__authors">{{ post.authors_display }}</p>
   {% if post.contribution %}<p class="pub-card__contribution"><em>[{% if page.lang == "zh" %}共同第一作者按字母顺序排列{% else %}{{ post.contribution | escape }}{% endif %}]</em></p>{% endif %}
   <p class="pub-card__venue">{% if post.venue %}<strong>{{ post.venue | escape }}</strong>{% endif %}{% assign pub_year = post.date | date: "%Y" %}{% unless post.category == 'conferences' %}<span>{{ post.year | default: pub_year }}</span>{% endunless %}</p>
-  {% if post.status %}<p class="pub-card__status">{% if post.review_venue %}{% if page.lang == "zh" %}同行评议中，投稿期刊：{% else %}Under review at {% endif %}<strong><u>{{ post.review_venue | escape }}</u></strong>{% else %}{{ post.status | escape }}{% endif %}</p>{% endif %}
+  {% if post.status %}<p class="pub-card__status">{% if post.review_venue %}{% if page.lang == "zh" %}同行评议中，投稿期刊：{% else %}Under review at {% endif %}<strong><u>{{ post.review_venue | escape }}</u></strong>{% else %}{% if page.lang == "zh" %}{{ post.status_zh | default: post.status | escape }}{% else %}{{ post.status | escape }}{% endif %}{% endif %}</p>{% endif %}
   {% if post.metrics %}<div class="pub-card__metrics">{% for metric in post.metrics %}<a href="{{ metric.url | escape }}" class="pub-badge">{% if page.lang == "zh" %}{{ metric.label | replace: "XinRui Tier 1 / Top", "新锐 1 区 / Top" | escape }}{% else %}{{ metric.label | escape }}{% endif %}</a>{% endfor %}</div>{% endif %}
   {% if post.paperurl or post.codeurl or post.dataseturl or post.bibtexurl %}
   <nav class="pub-card__links" aria-label="Resources for {{ post.title | escape }}">

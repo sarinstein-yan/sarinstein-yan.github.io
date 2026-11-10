@@ -36,3 +36,20 @@ additional_verification:
     verification: 'Confirmed by user-provided 2026 journal detail screenshot in this chat.'
     subcategory: 'Physics, Multidisciplinary'
     subcategory_tier: 1
+
+wsdm:
+  verified_on: 2026-11-10
+  ccf: B
+  ccf_year: 2026
+  ccf_source: 'https://www.ccf.org.cn/Academic_Evaluation/By_category/'
+  ccf_directory_copy: 'https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf'
+  ccf_directory_page: 36
+  ranking: 'ICORE A'
+  ranking_year: 2026
+  ranking_source: 'https://portal.core.edu.au/conf-ranks/?search=WSDM'
+  ranking_verification: 'Official ICORE2026 portal listing, search by all / web.'
+  estimated_if: 15.50
+  estimated_if_year: 2026
+  estimated_if_source: 'https://rizwanaliqau.github.io/csimpact/'
+  estimated_if_data: 'https://rizwanaliqau.github.io/csimpact/data.json'
+  method: 'Estimated conference impact score; not a Clarivate Journal Impact Factor.'
