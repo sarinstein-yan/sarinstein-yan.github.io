@@ -104,5 +104,3 @@ Extracurricular Activities
     - Director, 2021 - 2023
 - **Sichuan University English Association**
     - Director, 2019 - 2021
-- **Calligraphy**
-- **Marathon Runner**
