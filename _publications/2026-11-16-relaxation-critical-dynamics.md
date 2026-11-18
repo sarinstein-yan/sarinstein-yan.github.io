@@ -3,7 +3,7 @@ lang: en
 translation_url: /zh/publication/2026-11-16-relaxation-critical-dynamics/
 title: "Relaxation Critical Dynamics of Strong-to-Weak Spontaneous Symmetry Breaking"
 collection: publications
-display_order: 12
+display_order: 13
 authorship_group: coauthor
 category: preprints
 permalink: /publication/2026-11-16-relaxation-critical-dynamics
